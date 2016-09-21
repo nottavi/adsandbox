@@ -11,9 +11,18 @@
 * HERO                                                          *
 /****************************************************************/
 .hero {
-
+    background-color:#999;
+    padding: 50px 30px 50px 30px;
+    height: 400px; /* ! responsive ... */
 }
 
+.button {
+    /* display: block; Button will take full width of container */
+}
+/* Be specific: .success alone wouldn't work*/
+.button.success {
+    background-color: mediumpurple;
+}
 /****************************************************************
 * MAIN                                                          *
 /****************************************************************/
