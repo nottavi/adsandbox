@@ -32,14 +32,20 @@
 }
 
 .nav-desktop .menu-desktop {
-    background-color: #333;
+    background-color: transparent;
     line-height: 80px;
 }
 
 .menu > li > a {
     display: inline-block;
+    color: white;
+    line-height: 80px;
+    padding: 0 1em;
 }
 
+.menu > li > a:hover {
+    background-color: rgba(255,255,255,0.3); /* nice way to manage hover color with opacity */
+}
 /****************************************************************
 * HERO                                                          *
 /****************************************************************/
