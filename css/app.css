@@ -81,3 +81,9 @@ footer {
 footer a {
     display: block;
 }
+
+@media (max-width: 639px ) {
+    .nav-desktop {
+        display: none;
+    }
+}
