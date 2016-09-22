@@ -53,6 +53,8 @@
     background-color:#999;
     padding: 80px 0;
     height: 400px; /* ! responsive ... */
+    /* http://subtlepatterns.com/ */
+    background-image: url("../img/pattern.png");
 }
 
 .button {
@@ -75,12 +77,33 @@
 footer {
     padding: 20px 0 80px 0;
     background-color: #222;
-    color: #fff;
+}
+
+footer h4 {
+    color: rgba( 255, 255, 255, 0.8 );
+    font-size: 20px;
 }
 
 footer a {
     display: block;
+    color: rgba( 255, 255, 255, 0.6 );
 }
+
+footer a:hover {
+    color: rgba( 255, 255, 255, 0.8 );
+}
+
+footer a span {
+    font-weight: bold;
+    color: rgba( 255, 255, 255, 0.3 );
+}
+
+footer hr {
+    border-bottom: 1px solid #0c4d78;
+    margin: 10px 0;
+}
+
+
 
 @media (max-width: 639px ) {
     .nav-desktop {
