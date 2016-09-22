@@ -36,14 +36,14 @@
     line-height: 80px;
 }
 
-.menu > li > a {
+.nav-desktop .menu > li > a {
     display: inline-block;
     color: white;
     line-height: 80px;
     padding: 0 1em;
 }
 
-.menu > li > a:hover {
+.nav-desktop .menu > li > a:hover {
     background-color: rgba(255,255,255,0.3); /* nice way to manage hover color with opacity */
 }
 /****************************************************************
@@ -102,8 +102,6 @@ footer hr {
     border-bottom: 1px solid #0c4d78;
     margin: 10px 0;
 }
-
-
 
 @media (max-width: 639px ) {
     .nav-desktop {
