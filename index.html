@@ -9,85 +9,109 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <!-- https://www.youtube.com/watch?v=WlqTTBul7ik //-->
-    <!-- Mobile NAV-->
+  <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-    <!-- DESktop NAV-->
-    <nav class="top-bar nav-desktop">
-        <div class="wrap">
-            <div class="top-bar-left">
-                <h3 class="site-logo">Site Title</h3>
-            </div>
-            <div class="top-bar-right">
-                <ul class="menu menu-desktop">
-                    <li><a href="#">Un</a></li>
-                    <li><a href="#">Deux</a></li>
-                    <li><a href="#">Trois</a></li>
-                    <li><a href="#">Quatre</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="wrap">
-        <h1>Welcome to Foundation 6</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere, dolor sit amet scelerisque dictum, nibh diam facilisis ante, vel fringilla magna lacus vitae neque. Pellentesque tempus consectetur tellus id malesuada. Morbi imperdiet orci non risus imperdiet porta. Pellentesque ut suscipit lorem, vestibulum tempus dolor. Proin nisi dolor, auctor sit amet viverra quis, fringilla eget tortor. Ut ac sollicitudin ipsum. Ut porttitor ex et velit convallis pretium. Integer tincidunt metus eu dui volutpat placerat. Donec varius a velit vitae euismod.</p>
 
-        <a href="#" class="button">Learn more</a>
-        <a href="#" class="button success">Contact Us</a>
+        <!-- https://www.youtube.com/watch?v=WlqTTBul7ik //-->
+        <!-- Mobile NAV-->
+          <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+              <nav class="mobile-desktop">
+                  <div class="wrap">
+                      <div class="">
+                          <h3 class="site-logo">Site Title</h3>
+                      </div>
+                      <div class="t">
+                          <ul class="menu mobile-desktop vertical">
+                              <li><a href="#">Un</a></li>
+                              <li><a href="#">Deux</a></li>
+                              <li><a href="#">Trois</a></li>
+                              <li><a href="#">Quatre</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+        <!-- DESktop NAV-->
+        <div class="off-canvas-content" data-off-canvas-content>
+            <button type="button" class="button" data-toggle="offCanvas">Open Menu</button>
+            <nav class="top-bar nav-desktop">
+                <div class="wrap">
+                    <div class="top-bar-left">
+                        <h3 class="site-logo">Site Title</h3>
+                    </div>
+                    <div class="top-bar-right">
+                        <ul class="menu menu-desktop">
+                            <li><a href="#">Un</a></li>
+                            <li><a href="#">Deux</a></li>
+                            <li><a href="#">Trois</a></li>
+                            <li><a href="#">Quatre</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- HERO -->
+            <section class="hero">
+              <div class="wrap">
+                <h1>Welcome to Foundation 6</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere, dolor sit amet scelerisque dictum, nibh diam facilisis ante, vel fringilla magna lacus vitae neque. Pellentesque tempus consectetur tellus id malesuada. Morbi imperdiet orci non risus imperdiet porta. Pellentesque ut suscipit lorem, vestibulum tempus dolor. Proin nisi dolor, auctor sit amet viverra quis, fringilla eget tortor. Ut ac sollicitudin ipsum. Ut porttitor ex et velit convallis pretium. Integer tincidunt metus eu dui volutpat placerat. Donec varius a velit vitae euismod.</p>
+
+                <a href="#" class="button">Learn more</a>
+                <a href="#" class="button success">Contact Us</a>
+              </div>
+            </section>
+
+            <!-- MAIN -->
+            <section class="main">
+                <div class="wrap row">
+                    <article class="column small-12 medium-6">  <h2>Main section</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere, dolor sit amet scelerisque dictum, nibh diam facilisis ante, vel fringilla magna lacus vitae neque. Pellentesque tempus consectetur tellus id malesuada. Morbi imperdiet orci non risus imperdiet porta. Pellentesque ut suscipit lorem, vestibulum tempus dolor. Proin nisi dolor, auctor sit amet viverra quis, fringilla eget tortor. Ut ac sollicitudin ipsum. Ut porttitor ex et velit convallis pretium. Integer tincidunt metus eu dui volutpat placerat. Donec varius a velit vitae euismod.</p>
+
+                        <a href="#" class="button">Learn more</a>
+                        <a href="#" class="button success">Contact Us</a>
+                    </article>
+                    <aside class="column small-12 medium-6">  <h2>Second section</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere, dolor sit amet scelerisque dictum, nibh diam facilisis ante, vel fringilla magna lacus vitae neque. Pellentesque tempus consectetur tellus id malesuada. Morbi imperdiet orci non risus imperdiet porta. Pellentesque ut suscipit lorem, vestibulum tempus dolor. Proin nisi dolor, auctor sit amet viverra quis, fringilla eget tortor. Ut ac sollicitudin ipsum. Ut porttitor ex et velit convallis pretium. Integer tincidunt metus eu dui volutpat placerat. Donec varius a velit vitae euismod.</p>
+
+                        <a href="#" class="button">Learn more</a>
+                        <a href="#" class="button success">Contact Us</a>
+                    </aside>
+                </div>
+            </section>
+            <!-- FOOTER -->
+            <footer>
+                <div class="wrap row">
+                    <div class="column small-12 medium-4">
+                        <h4>Contact information</h4>
+                        <hr/>
+                        <a href="#"><span>Phone</span> +33 651 789 509</a>
+                        <a href="#"><span>Email</span> nicolas@agence-differente.fr</a>
+                        <a href="#"><span>Adress</span> 10 allée, du grihet - 13380 Plan-de-Cuques</a>
+                    </div>
+                    <div class="column small-12 medium-4">
+                        <h4>Sitemap</h4>
+                        <hr/>
+                        <a href="#">Un</a>
+                        <a href="#">Deux</a>
+                        <a href="#">Trois</a>
+                        <a href="#">Quatre</a>
+
+                    </div>
+                    <div class="column small-12 medium-4">
+                        <h4>Social</h4>
+                        <hr/>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">Instagram</a>
+
+                    </div>
+                </div>
+            </footer>
+    </div>
+  </div>
       </div>
-    </section>
-
-    <!-- MAIN -->
-    <section class="main">
-        <div class="wrap row">
-            <article class="column small-12 medium-6">  <h2>Main section</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere, dolor sit amet scelerisque dictum, nibh diam facilisis ante, vel fringilla magna lacus vitae neque. Pellentesque tempus consectetur tellus id malesuada. Morbi imperdiet orci non risus imperdiet porta. Pellentesque ut suscipit lorem, vestibulum tempus dolor. Proin nisi dolor, auctor sit amet viverra quis, fringilla eget tortor. Ut ac sollicitudin ipsum. Ut porttitor ex et velit convallis pretium. Integer tincidunt metus eu dui volutpat placerat. Donec varius a velit vitae euismod.</p>
-
-                <a href="#" class="button">Learn more</a>
-                <a href="#" class="button success">Contact Us</a>
-            </article>
-            <aside class="column small-12 medium-6">  <h2>Second section</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere, dolor sit amet scelerisque dictum, nibh diam facilisis ante, vel fringilla magna lacus vitae neque. Pellentesque tempus consectetur tellus id malesuada. Morbi imperdiet orci non risus imperdiet porta. Pellentesque ut suscipit lorem, vestibulum tempus dolor. Proin nisi dolor, auctor sit amet viverra quis, fringilla eget tortor. Ut ac sollicitudin ipsum. Ut porttitor ex et velit convallis pretium. Integer tincidunt metus eu dui volutpat placerat. Donec varius a velit vitae euismod.</p>
-
-                <a href="#" class="button">Learn more</a>
-                <a href="#" class="button success">Contact Us</a>
-            </aside>
-        </div>
-    </section>
-    <!-- FOOTER -->
-    <footer>
-        <div class="wrap row">
-            <div class="column small-12 medium-4">
-                <h4>Contact information</h4>
-                <hr/>
-                <a href="#"><span>Phone</span> +33 651 789 509</a>
-                <a href="#"><span>Email</span> nicolas@agence-differente.fr</a>
-                <a href="#"><span>Adress</span> 10 allée, du grihet - 13380 Plan-de-Cuques</a>
-            </div>
-            <div class="column small-12 medium-4">
-                <h4>Sitemap</h4>
-                <hr/>
-                <a href="#">Un</a>
-                <a href="#">Deux</a>
-                <a href="#">Trois</a>
-                <a href="#">Quatre</a>
-
-            </div>
-            <div class="column small-12 medium-4">
-                <h4>Social</h4>
-                <hr/>
-                <a href="#">Facebook</a>
-                <a href="#">Twitter</a>
-                <a href="#">Instagram</a>
-
-            </div>
-
-        </div>
-    </footer>
-
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
