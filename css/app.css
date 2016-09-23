@@ -1,6 +1,11 @@
 /****************************************************************
 * GENERAL                                                       *
 /****************************************************************/
+* {
+    /* https://developer.mozilla.org/fr/docs/Web/CSS/outline */
+    outline: none;
+}
+
 .wrap {
     width: 90%;
     max-width: 1020px;
@@ -12,10 +17,34 @@
     padding: 10px;
 }
 
+.off-canvas-wrapper {
+    background-color: #222;
+}
 
 /****************************************************************
 * NAV-MOBILE                                                           *
 /****************************************************************/
+.title-bar {
+    background-color: #222;
+    height: 60px;
+    padding-top: 17px;
+}
+
+.off-canvas {
+    background-color: #222;
+    padding: 10px;
+}
+
+#menu-mobile a{
+    color: rgba( 255,255,255,0.6);
+    font-weight: bold;
+    line-height: 2;
+    padding: 0;
+}
+
+#menu-mobile a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
 
 /****************************************************************
 * NAV-DESKTOP                                                    *
@@ -40,7 +69,6 @@
     display: inline-block;
     color: white;
     line-height: 80px;
-    padding: 0 1em;
 }
 
 .nav-desktop .menu > li > a:hover {
