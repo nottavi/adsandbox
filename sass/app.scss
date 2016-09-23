@@ -1,4 +1,14 @@
 /****************************************************************
+* variables                                                       *
+/****************************************************************/
+
+$grey2: #222;
+$grey3: #333;
+$o3: rgba( 255, 255, 255, 0.3 );
+$o6: rgba( 255, 255, 255, 0.6 );
+$o8: rgba( 255, 255, 255, 0.8 );
+
+/****************************************************************
 * GENERAL                                                       *
 /****************************************************************/
 .wrap {
@@ -14,15 +24,36 @@
 
 
 /****************************************************************
-* NAV-MOBILE                                                           *
+* NAV-MOBILE                                                    *
 /****************************************************************/
+.title-bar {
+  background-color: $grey2;
+  height: 60px;
+  padding-top: 17px;
+}
+
+.off-canvas {
+  background-color: $grey2;
+  padding: 10px;
+}
+
+#menu-mobile a{
+  color: $o6;
+  font-weight: bold;
+  line-height: 2;
+  padding: 0;
+}
+
+#menu-mobile a:hover {
+  color: $o8;
+}
 
 /****************************************************************
 * NAV-DESKTOP                                                    *
 /****************************************************************/
 .nav-desktop {
   height: 80px;
-  background-color: #333;
+  background-color: $grey3;
   padding: 0;
 }
 
@@ -44,13 +75,12 @@
 }
 
 .nav-desktop .menu > li > a:hover {
-  background-color: rgba(255,255,255,0.3); /* nice way to manage hover color with opacity */
+  background-color: $o3 /* nice way to manage hover color with opacity */
 }
 /****************************************************************
 * HERO                                                          *
 /****************************************************************/
 .hero {
-  background-color:#999;
   padding: 80px 0;
   height: 400px; /* ! responsive ... */
   /* http://subtlepatterns.com/ */
@@ -76,7 +106,7 @@
 
 footer {
   padding: 20px 0 80px 0;
-  background-color: #222;
+  background-color: $grey3;
 }
 
 footer h4 {
@@ -95,7 +125,7 @@ footer a:hover {
 
 footer a span {
   font-weight: bold;
-  color: rgba( 255, 255, 255, 0.3 );
+  color: $o3;
 }
 
 footer hr {
