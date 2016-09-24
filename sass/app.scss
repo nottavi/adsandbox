@@ -55,6 +55,8 @@ $o8: rgba( 255, 255, 255, 0.8 );
   height: 80px;
   background-color: $grey3;
   padding: 0;
+  position: fixed;
+  width: 100%;
 }
 
 .site-logo {

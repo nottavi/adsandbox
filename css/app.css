@@ -40,7 +40,9 @@
 .nav-desktop {
   height: 80px;
   background-color: #333;
-  padding: 0; }
+  padding: 0;
+  position: fixed;
+  width: 100%; }
 
 .site-logo {
   color: #fff;
